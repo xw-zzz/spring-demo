@@ -1,0 +1,7 @@
+{
+"id":"myBean",
+ "className":"io.github.xw.model.MyBean",
+ "properties":{
+ "message":"hello,xw"
+ }
+}
