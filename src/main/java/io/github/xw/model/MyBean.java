@@ -1,7 +1,7 @@
 package io.github.xw.model;
 
 /**
- * @author yangliu@tiduyun.com
+ * @author xw
  * @date 2023/10/9
  */
 public class MyBean {

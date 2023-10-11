@@ -6,7 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import io.github.xw.model.MyBean;
 
 /**
- * @author yangliu@tiduyun.com
+ * @author xw
  * @date 2023/10/9
  */
 public class ClassPathJsonApplicationContextMain {

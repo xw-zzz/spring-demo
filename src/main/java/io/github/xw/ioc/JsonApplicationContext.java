@@ -10,7 +10,7 @@ import org.springframework.core.io.Resource;
 import java.io.IOException;
 
 /**
- * @author yangliu@tiduyun.com
+ * @author xw
  * @date 2023/10/10
  */
 public class JsonApplicationContext extends AbstractRefreshableConfigApplicationContext {

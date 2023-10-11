@@ -20,8 +20,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /**
- * @author yangliu@tiduyun.com
- * @date 2023/10/10
+ * @author xw
  */
 public class JsonBeanDefinitionReader extends AbstractBeanDefinitionReader {
     /**

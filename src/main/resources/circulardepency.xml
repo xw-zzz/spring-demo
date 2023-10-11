@@ -1,0 +1,18 @@
+<!-- Spring配置文件 -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="classA" class="io.github.xw.ioc.circulardependency.ClassA" autowire="byName">
+        <property name="classB" ref="classB" />
+    </bean>
+
+    <bean id="classB" class="io.github.xw.ioc.circulardependency.ClassB" autowire="byName">
+        <property name="classC" ref="classC" />
+    </bean>
+
+    <bean id="classC" class="io.github.xw.ioc.circulardependency.ClassC" autowire="byName">
+        <property name="classA" ref="classA" />
+    </bean>
+</beans>

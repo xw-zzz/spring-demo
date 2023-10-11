@@ -3,7 +3,7 @@ package io.github.xw.ioc;
 import java.util.Map;
 
 /**
- * @author yangliu@tiduyun.com
+ * @author xw
  * @date 2023/10/10
  */
 public class JsonObjectDefine {
