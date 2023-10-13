@@ -27,11 +27,24 @@
             <artifactId>spring-context</artifactId>
             <version>5.3.10</version> <!-- 根据你的需求选择版本 -->
         </dependency>
+        <!-- Spring AOP -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+            <version>5.3.10</version> <!-- 请根据您的项目中实际的Spring版本进行设置 -->
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-aspects -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+            <version>5.3.10</version>
+        </dependency>
 
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>2.0.41</version>
         </dependency>
+
     </dependencies>
 </project>
