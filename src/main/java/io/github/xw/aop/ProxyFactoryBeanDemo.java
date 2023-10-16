@@ -44,6 +44,7 @@ public class ProxyFactoryBeanDemo {
             factoryBean.setInterceptorNames("advisor");
             // 指定 target
             factoryBean.setTarget(new HelloImpl());
+
             return factoryBean;
         }
 
